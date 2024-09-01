@@ -1,0 +1,149 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.container1{
+  background: linear-gradient(to top, #D5933D, rgb(74, 38, 38));
+  margin-top: 25px;
+}
+.container1 h1{
+  padding-top: 20px;
+}
+.insCont{
+  display: flex;
+  justify-content: space-between;
+}
+.insCont > img{
+  margin-left: -160px;
+  padding-right: -30px;
+}
+.menu1{
+  /* border: 1px blue solid; */
+  border-radius: 20px;
+  height: 100%;
+  width: 40%;
+  margin: 20px;
+  /* padding: 10px; */
+  color: white;
+  background: linear-gradient(to right, rgb(154, 239, 80), rgb(120, 55, 55));
+}
+.menu1 img{
+  width: 90px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  margin-top: -30px;
+}
+.menuList{
+ margin-right: 40px;
+ margin-left: -150px;
+ width: 80%;
+}
+.insideMenuList{
+  display: flex;
+  height: 40%;
+  margin: 20px;
+}
+.other{
+  margin-top: 20px;
+  display: flex;
+  margin-bottom: 10px;
+  /* border: yellow 2px solid; */
+  justify-content: flex-end;
+  /* background: url(../image/foodbg.png);
+  background-position: center;
+  background-size: auto ;
+  background-repeat: no-repeat; */
+  /* background: linear-gradient(to bottom, #D5933D, rgb(74, 38, 38)); */
+}
+.other img{
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.menu2{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+ margin-right: 75px;
+}
+.food{
+  width: 45%;
+  color: rgb(255, 255, 255);
+  margin-left: 30px;
+  margin-right: 40px;
+  background: linear-gradient(to right, rgb(154, 239, 80), rgb(120, 55, 55));;
+ 
+ 
+  border-radius: 20px;
+}
+.food h2{
+  margin-top: 20px;
+  color: aliceblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 20px;
+}
+.foodList input{
+  width: 40px;
+  height: 50px;
+  margin-left: 10px;
+  
+  
+}
+
+
+.foodList{
+  display: flex;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 300;
+  font-size: large;
+  margin-bottom: 10px;
+}
+.foodList label b{
+  margin-left: -75%;
+  font-size: 20px;
+}
+.foodList label div{
+  margin-left: 5px;
+
+}
+.foodList label .price{
+  margin-left: -75%;
+}
+.juice{
+  width: 45%;
+  
+  background: linear-gradient(to right, rgb(154, 239, 80), rgb(120, 55, 55));
+  border-radius: 20px;
+}
+.juice h2{
+  margin-top: 20px;
+  color: aliceblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 20px;
+}
+.juiceList{
+  display: flex;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 300;
+  font-size: large;
+  margin-bottom: 10px;
+}
+.juiceList input{
+  width: 40px;
+  height: 50px;
+  margin-left: 10px;
+}
+.juiceList label b{
+  margin-left: -75%;
+  font-size: 20px;
+}
+.juiceList label div{
+  margin-left: 5px;
+
+}
+.juiceList label .price{
+  margin-left: -75%;
+}

@@ -1,0 +1,38 @@
+.container{
+  background:  linear-gradient( to right, #8D9BA9, rgb(197, 109, 109));
+}
+p{
+  color: rgb(68, 64, 64);
+  font-size: 20px;
+  font-weight: unset;
+}
+.first{
+  display: flex;
+}
+.first img{
+  width: 550px;
+  /* height: 700px; */
+  margin-left: 20px;
+  margin-top: 5px;
+  /* border: 2px red solid; */
+  border-radius: 20px;
+}
+.cafe_serviece{
+  /* border: 1px red solid; */
+  margin-top: 50px;
+  width: 600px;
+  height: 400px;
+  margin-left: 65px;
+  /* background:  linear-gradient( to right, #8D9BA9, rgb(197, 109, 109));
+  border-radius: 20px; */
+}
+.second{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.second img{
+  margin-top: -200px;
+}
+
+
+

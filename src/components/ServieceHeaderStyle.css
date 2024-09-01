@@ -1,0 +1,14 @@
+
+.serviece{
+  background:  linear-gradient( to right, #8D9BA9, rgb(197, 109, 109));
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+h1{
+  margin-top: 0px;
+  padding-top: 10px;
+  color: wheat
+
+}

@@ -1,0 +1,45 @@
+body{
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.HomeB {
+  position: relative;
+  margin: 0;
+  height: 100vh; /* Ensure the body takes up the full height of the viewport */
+  
+}
+ .HomeB::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('../image/Lovepik_com-361534152-architecturally-designed-outdoor-coffee-shop-stunning-3d-illustration-with-mockup-banner-and-menu-background.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.5); /* Adjust the brightness as needed */
+  z-index: -1; /* Place it behind other content */
+}
+.HomeB{
+  margin-top: -60pxpx;
+  color: rgb(237, 234, 234);
+}
+.HomeB h1{
+  padding-top: 200px;
+}
+.button_deliver{
+  border: none;
+  background:linear-gradient(to right,rgb(65, 52, 52),rgb(186, 43, 43));
+  height: 40px;
+  padding: 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+.button_deliver:hover{
+  background-color: rgb(124, 117, 117);
+  background-blend-mode: color;
+}
